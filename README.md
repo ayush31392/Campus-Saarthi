@@ -87,22 +87,8 @@ The platform streamlines non-teaching administrative burdens by providing a sing
 
 ## How to Run Locally
 
-### Option 1: Using the Node Server
-```bash
-# In the project directory:
-node server.js
-```
-Open your browser and navigate to:
-**`http://localhost:3000`**
 
-### Option 2: Direct File Open
 You can open `index.html` directly in modern web browsers (Chrome, Edge, Firefox, Safari).
 
 ---
 
-## Verification Suite
-To run the automated verification suite:
-```bash
-node test_verification.js
-```
-This verifies zero emojis, non-vibe-coded color tokens, complete PRD field coverage, document checklist items, and live HTTP responses.
